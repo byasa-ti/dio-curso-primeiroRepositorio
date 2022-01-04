@@ -1,2 +1,4 @@
 # dio-curso-primeiroRepositorio
-Repositório criado para testar as funcionalidades das ferramentas Git e GitHub, conforme desafio do curso realizado na DIO - Digital Innovation One.
+Repositório criado com a seguinte finalidade:  
+* testar as funcionalidades das ferramentas Git e GitHub;  
+* compartilhar as anotações realizadas no curso realizado na [DIO - Digital Innovation One] (https://digitalinnovation.one/"DIO").
