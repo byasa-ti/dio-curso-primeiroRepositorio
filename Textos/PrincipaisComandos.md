@@ -1,4 +1,4 @@
-![Logo do Git](./Imagens/icoGit.png) ![Logo do GitHub](./Imagens/icoGitHub.png)
+![Logo do Git](./../Imagens/icoGit.png) ![Logo do GitHub](./../Imagens/icoGitHub.png)
 # Principais Comandos
 
 1. **git status** – traz o status do repositório atual. 
@@ -13,6 +13,7 @@ criar um *snapshot* (imagem) do repositório.
 
 Basicamente, sempre que modificarmos algo, precisaremos usar o comando **git add** e **git commit**. 
 
+[Voltar](./../README.md)
  
 
 
