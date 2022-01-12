@@ -11,8 +11,8 @@ Os arquivos e pastas de um repositório local podem se encontrar em um dos segui
 
 	2. **Modified** – ocorre quando um arquivo/pasta for editado. Neste momento, o arquivo/pasta sai da área Staged comentada anteriormente. Para voltar a ela, usa-se o comando `git add`.
 
-3. **Staged** – status do arquivo/pasta após ser modificado e atualizado com o comando `git add`. Após ser adicionado a este status, as modificações podem ser confirmadas utilizando o comando `git commit` , passando via comando uma mensagem que deixe claro quais foram as modificações atualizadas (vide Principais Commandos).  
-Após o uso do comando git-commit, o arquivo/pasta passa de fato a fazer parte do repositório.
+	3. **Staged** – status do arquivo/pasta após ser modificado e atualizado com o comando `git add`. Após ser adicionado a este status, as modificações podem ser confirmadas utilizando o comando `git commit` , passando via comando uma mensagem que deixe claro quais foram as modificações atualizadas (vide [Principais Commandos](./PrincipaisComandos.md)).  
+	Após o uso do comando git-commit, o arquivo/pasta passa de fato a fazer parte do repositório.
 
 Importante destacar que para verificar a situação de um repositório, podemos utilizar o comando git status.
 
