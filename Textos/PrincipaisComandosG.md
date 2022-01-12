@@ -19,9 +19,11 @@ Através dos comandos de navegação entre pastas (sejam para distribuições li
 
 4. **git add** *<nomeArquivo.extensao>* - modifica o status do arquivo de untracked para unmodified, adicionando-o ao repositório. Para adicionar vários arquivos e pastas utilizamos `git add *`. Repare que ao invés de mencionarmos o nome do arquivo no comando, mencionamos apenas "*", que significa tudo.
  
-5. **git commit -m** *"<mensagem>"* - comando que permite ao git criar um *snapshot* (imagem) do repositório, passando uma mensagem que identifique as modificações realizadas. No local da mensagem, devemos informar o que de fato foi feito no código. Por exemplo: adição de determinada funcionalidade, resolução de determinado bug, etc..
+5. **git commit -m** *<mensagem>* - comando que permite ao git criar um *snapshot* (imagem) do repositório, passando uma mensagem que identifique as modificações realizadas. No local da mensagem, devemos informar o que de fato foi feito no código. Por exemplo: adição de determinada funcionalidade, resolução de determinado bug, etc..
+A mensagem deve ser digitada entre aspas.
 
-6. **git commit –am** "*<mensagem>*" - permite adicionar todos os arquivos modificados ao *snapshot* (imagem) criado, além de uma breve mensagem informando o que foi feito na atualização, conforme item anterior. 
+6. **git commit –am** *<mensagem>* - permite adicionar todos os arquivos modificados ao *snapshot* (imagem) criado, além de uma breve mensagem informando o que foi feito na atualização, conforme item anterior. 
+A mensagem deve ser digitada entre aspas.
 
 Basicamente, sempre que modificarmos algo, precisaremos usar o comando **git add** e **git commit**. 
 
