@@ -17,23 +17,23 @@ Através dos comandos de navegação entre pastas (sejam para distribuições li
 
 3. **git status** – traz o status do repositório atual. 
 
-4. **git add** *<nomeArquivo.extensao>* - modifica o status do arquivo de untracked para unmodified, adicionando-o ao repositório. Para adicionar vários arquivos e pastas utilizamos `git add *`. Repare que ao invés de mencionarmos o nome do arquivo no comando, mencionamos apenas "*", que significa tudo.
+4. **git add** _nomeArquivo.extensao_ - modifica o status do arquivo de untracked para unmodified, adicionando-o ao repositório. Para adicionar vários arquivos e pastas utilizamos `git add *`. Repare que ao invés de mencionarmos o nome do arquivo no comando, mencionamos apenas "*", que significa tudo.
  
-5. **git commit -m** _<mensagem>_ - comando que permite ao git criar um *snapshot* (imagem) do repositório, passando uma mensagem que identifique as modificações realizadas. No local da mensagem, devemos informar o que de fato foi feito no código. Por exemplo: adição de determinada funcionalidade, resolução de determinado bug, etc..
+5. **git commit -m** _mensagem_ - comando que permite ao git criar um *snapshot* (imagem) do repositório, passando uma mensagem que identifique as modificações realizadas. No local da mensagem, devemos informar o que de fato foi feito no código. Por exemplo: adição de determinada funcionalidade, resolução de determinado bug, etc..
 A mensagem deve ser digitada entre aspas.
 
-6. **git commit –am** _<mensagem>_ - permite adicionar todos os arquivos modificados ao *snapshot* (imagem) criado, além de uma breve mensagem informando o que foi feito na atualização, conforme item anterior. 
+6. **git commit –am** _mensagem_ - permite adicionar todos os arquivos modificados ao *snapshot* (imagem) criado, além de uma breve mensagem informando o que foi feito na atualização, conforme item anterior. 
 A mensagem deve ser digitada entre aspas.
 
 Basicamente, sempre que modificarmos algo, precisaremos usar o comando **git add** e **git commit**. 
 
 # Principais Comandos Git - Desfazer Ações Realizadas no Repositório  
 
-1. **git checkout** *<nomeArquivo.extensão>* - Comando que permite trazer os arquivos/pastas do repositório ao estado anterior, ou seja, não modificado.  
+1. **git checkout** _nomeArquivo.extensão_ - Comando que permite trazer os arquivos/pastas do repositório ao estado anterior, ou seja, não modificado.  
 
-2. **git reset** *<nomeArquivo.extensão>* - Comando que permite trazer os arquivos/pastas do repositório ao estado anterior APÓS a utilização do comando `git add`. Neste caso, os arquivos/pastas saem do status "Staged".
+2. **git reset** _nomeArquivo.extensão_ - Comando que permite trazer os arquivos/pastas do repositório ao estado anterior APÓS a utilização do comando `git add`. Neste caso, os arquivos/pastas saem do status "Staged".
 
-3. **git reset** *<opção>* *<nomeArquivo.extensão>* - Comando que permite trazer os arquivos/pastas do repositório ao estado anterior APÓS a utilização do comando `git commit`. Neste caso, os arquivos/pastas voltam para o status "Staged".
+3. **git reset** _opção_ _nomeArquivo.extensão_ - Comando que permite trazer os arquivos/pastas do repositório ao estado anterior APÓS a utilização do comando `git commit`. Neste caso, os arquivos/pastas voltam para o status "Staged".
 Em opção podemos utilizar os seguintes parâmetros:
 
 	1. `--sotf` - Esta opção permite o arquivo/pasta retornar ao estado anterior a execução do comando `git commit`, ou seja, "staged".
