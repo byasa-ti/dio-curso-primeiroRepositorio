@@ -1,5 +1,5 @@
 ![Logo do Git](./Imagens/icoGit.png) ![Logo do GitHub](./Imagens/icoGitHub.png)
-# dio-curso-primeiroRepositorio  
+# DIO Cursos - Meu Primeiro Repositório  
 
 Repositório criado com a seguinte finalidade:  
 * testar as funcionalidades das ferramentas Git e GitHub;  
