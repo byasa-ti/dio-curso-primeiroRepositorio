@@ -1,9 +1,9 @@
 ![Logo do Git](./../Imagens/icoGit.png) ![Logo do GitHub](./../Imagens/icoGitHub.png)
 
-# Principais Comandos de Navegação
+# Início e Navegação
 
 Para começar a trabalhar com o git, devemos localizar o aplicativo git.bash (interface CLI para distribuições Linux) ou git.cmd (interface CLI para Windows).  
-Através dos comandos de navegação entre pastas (sejam para distribuições linux ou windows) podemos navegar entre as estruturas de pastas e a partir daí, utilizar os comandos git propriamente ditos, que são descritos abaixo.
+Através dos comandos de navegação entre pastas (sejam para distribuições linux ou windows) podemos navegar entre as estruturas de pastas e a partir daí criar o repositório local e utilizar os comandos git propriamente ditos, cujos principais estão descritos abaixo.
 
 # Principais Comandos Git
 

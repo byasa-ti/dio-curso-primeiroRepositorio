@@ -8,7 +8,7 @@ Repositório criado com a seguinte finalidade:
 ## Conteúdo  
 
 1. [Git e GitHub - Diferença](./Textos/DiferencaGitGitHub.md)  
-2. [Principais Comandos](./Textos/PrincipaisComandos.md)  
-3. [Ciclo de Vida do Repositório](./Textos/Status.md)
-
+2. [Ciclo de Vida do Repositório](./Textos/Status.md)
+3. [Principais Comandos Git](./Textos/PrincipaisComandosG.md)  
+4. [Principais Comandos GitHub](./Textos/PrincipaisComandosGH.md)  
 
