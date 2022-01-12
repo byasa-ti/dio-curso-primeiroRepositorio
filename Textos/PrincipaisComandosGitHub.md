@@ -1,14 +1,12 @@
 ![Logo do Git](./../Imagens/icoGit.png) ![Logo do GitHub](./../Imagens/icoGitHub.png)
 
-# Início e Navegação
+# Principais Comandos GitHub
 
-Para começar a trabalhar com o git, devemos localizar o aplicativo git.bash (interface CLI para distribuições Linux) ou git.cmd (interface CLI para Windows).  
-Através dos comandos de navegação entre pastas (sejam para distribuições linux ou windows) podemos navegar entre as estruturas de pastas e a partir daí criar o repositório local e utilizar os comandos git propriamente ditos, cujos principais estão descritos abaixo.
+1. **git remote** - Este comando permite que descubramos o nome dado ao repositório remoto.  
 
-# Principais Comandos Git
+2. **git clone** *<endereço do repositório remoto>* - Este comando clona para o repositório local o conteúdo do repositório remoto, para isto basta passar o endereço do repositório na internet.  
 
-1. **git init** - Basicamente é o primeiro comando que vamos utilizar. Serve para inicializar um repositório local na pastinha em que vamos trabalhar. 
-
+3. **git push origin** *<nome da branch>* - Este comando envia para o repositório remoto, tudo o que está no repositório local. Precisamos apenas informar primeiramente o nome do repositório remoto (que no caso é origin) e na sequência o do repositório local.  
 
 [Voltar](./../README.md)
  
