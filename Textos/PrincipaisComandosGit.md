@@ -17,7 +17,7 @@ Através dos comandos de navegação entre pastas (sejam para distribuições li
 
 3. **git status** – traz o status do repositório atual. 
 
-4. **git add** _nomeArquivo.extensao_ - modifica o status do arquivo de untracked para unmodified, adicionando-o ao repositório. Para adicionar vários arquivos e pastas utilizamos `git add *`. Repare que ao invés de mencionarmos o nome do arquivo no comando, mencionamos apenas "*", que significa tudo.
+4. **git add** _nomeArquivo.extensao_ - modifica o status do arquivo de "untracked" para "unmodified", adicionando-o ao repositório. Para adicionar vários arquivos e pastas utilizamos `git add *`. Repare que ao invés de mencionarmos o nome do arquivo no comando, mencionamos apenas "*", que significa tudo.
  
 5. **git commit -m** _mensagem_ - comando que permite ao git criar um *snapshot* (imagem) do repositório, passando uma mensagem que identifique as modificações realizadas. No local da mensagem, devemos informar o que de fato foi feito no código. Por exemplo: adição de determinada funcionalidade, resolução de determinado bug, etc..
 A mensagem deve ser digitada entre aspas.
@@ -37,7 +37,7 @@ Basicamente, sempre que modificarmos algo, precisaremos usar o comando **git add
 Em opção podemos utilizar os seguintes parâmetros:
 
 	1. `--sotf` - Esta opção permite o arquivo/pasta retornar ao estado anterior a execução do comando `git commit`, ou seja, "staged".
-	2. `--mixed` - Esta opção permite o arquivo/pasta retornar ao estado anterior a execução do comando `git add`, ou seja, para última modificação realizada.
+	2. `--mixed` - Esta opção permite o arquivo/pasta retornar ao estado anterior a execução do comando `git add`, ou seja, para última modificação realizada. Se nenhuma opção for escolhida, é aplicada esta opção por "default".
 	3. `--hard` - Esta opção permite o arquivo/pasta retornar ao estado anterior antes de sua criação, ou seja, o arquivo/pasta deixa de existir sem deixar rastros.
 	Deve ser usado com bastante cuidado pois altera o histórico, em especial quando a mudança já está em repositório web compartilhado. 
 
